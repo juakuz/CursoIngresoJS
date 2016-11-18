@@ -2,12 +2,19 @@
 ej.: "Usted se llama José y tiene 66 años" 	*/
 function Mostar()
 {	
-	var mitext;
-	mitexto=prompt("Su nombre es");
-	document.getElementById("elNombre"). value=mitexto;
-
-	var mitext;
-	mitexto=prompt("y su edad es de");
-	document.getElementById("laEdad"). value=mitexto;
+	
+	//var unaVariable = "datos";
+	//console.log("primer mensaje")
+	//var otraVariable
+	//console.info("mensaje:",unaVariable);
+	
+	var miNombre;
+	var miEdad;	
+	
+	miNombre=document.getElementById("elNombre").value;
+	miEdad=document.getElementById("laEdad").value;
+	
+	alert("Usted se llama "+miNombre+" y tiene "+miEdad+" años")
+	
+	//console.info("Linea final:",unaVariable);
 }
-
