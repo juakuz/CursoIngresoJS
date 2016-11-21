@@ -24,7 +24,7 @@ edad = document.getElementById('edad').value;
 
 if (edad<13)
  {
- 	alert("es menor");
+ 		alert("es menor");
  }
  else
  {
@@ -34,7 +34,7 @@ if (edad<13)
  	}
  	else
  	{
- 	 alert("Es adolescente");
+ 	 	alert("Es adolescente");
  	}
  }
  }
