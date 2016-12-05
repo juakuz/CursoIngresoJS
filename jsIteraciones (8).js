@@ -14,10 +14,13 @@ function Mostrar()
 		numeroIngresa=prompt("ingrese un numero");
 		console.log(contador);
 		if(numeroIngresa<0)
+		
 		{
 				negativo=negativo*numeroIngresa;
 		}
-		else
+
+			else
+		
 			{
 				positivo=positivo+parseInt(numeroIngresa);
 			}
